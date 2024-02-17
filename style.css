@@ -1,0 +1,75 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+    /* Light gray background */
+}
+
+.profile-picture img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+section {
+    padding: 20px;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+/* Other styles for sections and elements... */
+
+/* Media query for mobile devices */
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+
+    .profile-picture {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .profile-picture img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .profile h1 {
+        font-size: 24px;
+    }
+
+    .profile h2 {
+        font-size: 18px;
+    }
+
+    /* Adjust other styles as needed for smaller screens */
+}
+
+/* Adjustments for smaller screens */
+@media screen and (max-width: 480px) {
+    .profile h1 {
+        font-size: 20px;
+    }
+
+    .profile h2 {
+        font-size: 16px;
+    }
+
+    /* Additional adjustments as needed */
+}
